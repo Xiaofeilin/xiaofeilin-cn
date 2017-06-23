@@ -1,0 +1,216 @@
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003349s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002875s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002415s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:42:49+08:00 ] ::1 /xiaofeilin.cn/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:42:50+08:00 ] ::1 /xiaofeilin.cn/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:42:50+08:00 ] ::1 /xiaofeilin.cn/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:42:50+08:00 ] ::1 /xiaofeilin.cn/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:43:01+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:43:01+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024210s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:43:01+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018013s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:43:01+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:43:01+08:00 ] ::1 /xiaofeilin.cn/__Public__/Admin/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+ERR: 无法加载模块:__Public__
+
+[ 2017-06-23T10:43:39+08:00 ] ::1 /xiaofeilin.cn/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:43:39+08:00 ] ::1 /xiaofeilin.cn/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:43:39+08:00 ] ::1 /xiaofeilin.cn/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:43:39+08:00 ] ::1 /xiaofeilin.cn/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:43:39+08:00 ] ::1 /xiaofeilin.cn/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:43:39+08:00 ] ::1 /xiaofeilin.cn/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005305s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-06-23T10:43:40+08:00 ] ::1 /xiaofeilin.cn/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:43:40+08:00 ] ::1 /xiaofeilin.cn/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003672s ]
+ERR: 无法加载模块:Static
+
+[ 2017-06-23T10:43:40+08:00 ] ::1 /xiaofeilin.cn/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载模块:Lib
+
+[ 2017-06-23T10:44:53+08:00 ] ::1 /xiaofeilin.cn/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004090s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-06-23T10:45:58+08:00 ] ::1 /xiaofeilin.cn/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-06-23T10:46:07+08:00 ] ::1 /xiaofeilin.cn/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-06-23T10:53:18+08:00 ] ::1 /xiaofeilin.cn/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+ERR: 无法加载模块:Welcome
+
+[ 2017-06-23T10:53:25+08:00 ] ::1 /xiaofeilin.cn/system-base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002863s ]
+ERR: 无法加载模块:System-base
+
+[ 2017-06-23T10:53:26+08:00 ] ::1 /xiaofeilin.cn/system-category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+ERR: 无法加载模块:System-category
+
+[ 2017-06-23T10:53:26+08:00 ] ::1 /xiaofeilin.cn/system-data.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+ERR: 无法加载模块:System-data
+
