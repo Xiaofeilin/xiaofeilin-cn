@@ -1,26 +1,4 @@
-﻿<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="renderer" content="webkit|ie-comp|ie-stand">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-<link rel="Bookmark" href="/favicon.ico" >
-<link rel="Shortcut Icon" href="/favicon.ico" />
-<!--[if lt IE 9]>
-<script type="text/javascript" src="lib/html5shiv.js"></script>
-<script type="text/javascript" src="lib/respond.min.js"></script>
-<![endif]-->
-<load href="__PUBLIC__/Admin/static/h-ui/css/H-ui.min.css" />
-<load href="__PUBLIC__/Admin/static/h-ui.admin/css/H-ui.admin.css" />
-<load href="__PUBLIC__/Admin/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<load href="__PUBLIC__/Admin/static/h-ui.admin/css/style.css" />
-<!--[if IE 6]>
-<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
-<script>DD_belatedPNG.fix('*');</script>
-<![endif]-->
+﻿<include file="Index/_meta" />
 <title>Xiaofeilin.Admin</title>
 </head>
 <body>
@@ -57,14 +35,15 @@
 <aside class="Hui-aside">
 	<div class="menu_dropdown bk_2">
 		<dl id="menu-system">
-			<dt><i class="Hui-iconfont">&#xe62e;</i> 系统管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe694;</i> 微信管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="system-base.html" data-title="系统设置" href="javascript:void(0)">系统设置</a></li>
-					<li><a data-href="system-category.html" data-title="栏目管理" href="javascript:void(0)">栏目管理</a></li>
-					<li><a data-href="system-data.html" data-title="数据字典" href="javascript:void(0)">数据字典</a></li>
-					<li><a data-href="system-shielding.html" data-title="屏蔽词" href="javascript:void(0)">屏蔽词</a></li>
-					<li><a data-href="system-log.html" data-title="系统日志" href="javascript:void(0)">系统日志</a></li>
+					<li><a data-href="__PUBLIC__/ueditor/php/controller.php" data-title="编辑器测试1" href="javascript:void(0)">编辑器测试1</a></li>
+					<li><a data-href="__PUBLIC__/ueditor/php/controller.php?action=config" data-title="编辑器测试2" href="javascript:void(0)">编辑器测试2</a></li>
+					<li><a data-href="{:U('WechatPush/index')}" data-title="文章列表" href="javascript:void(0)">文章列表</a></li>
+					<li><a data-href="{:U('WechatFollowMsg/index')}" data-title="被添加自动回复" href="javascript:void(0)">被添加自动回复</a></li>
+					<li><a data-href="{:U('WechatAutoMsg/index')}" data-title="消息自动回复" href="javascript:void(0)">消息自动回复</a></li>
+					<li><a data-href="{:U('WechatKeyMsg/index')}" data-title="关键字自动回复" href="javascript:void(0)">关键字自动回复</a></li>
 				</ul>
 			</dd>
 		</dl>
@@ -76,7 +55,7 @@
 		<div class="Hui-tabNav-wp">
 			<ul id="min_title_list" class="acrossTab cl">
 				<li class="active">
-					<span title="我的桌面" data-href="welcome.html">我的桌面</span>
+					<span title="我的桌面" data-href="{:U('Index/welcome')}">我的桌面</span>
 					<em></em></li>
 		</ul>
 	</div>
@@ -85,7 +64,7 @@
 	<div id="iframe_box" class="Hui-article">
 		<div class="show_iframe">
 			<div style="display:none" class="loading"></div>
-			<iframe scrolling="yes" frameborder="0" src="welcome.html"></iframe>
+			<iframe scrolling="yes" frameborder="0" src="{:U('Index/welcome')}"></iframe>
 	</div>
 </div>
 </section>
@@ -96,12 +75,8 @@
 		<li id="closeall">关闭全部 </li>
 </ul>
 </div>
-<!--_footer 作为公共模版分离出去-->
-<load href="__PUBLIC__/Admin/lib/jquery/1.9.1/jquery.min.js" />
-<load href="__PUBLIC__/Admin/lib/layer/2.4/layer.js" />
-<load href="__PUBLIC__/Admin/static/h-ui/js/H-ui.min.js" />
-<load href="__PUBLIC__/Admin/static/h-ui.admin/js/H-ui.admin.js" />
-<!--/_footer 作为公共模版分离出去-->
+
+<include file="Index/_footer" />
 
 <!--请在下方写此页面业务相关的脚本-->
 <load href="__PUBLIC__/Admin/lib/jquery.contextmenu/jquery.contextmenu.r2.js" />

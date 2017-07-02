@@ -5,4 +5,12 @@ class IndexController extends Controller {
     public function index(){
         $this->display();
     }
+
+    public function welcome(){
+        $this->display();
+    }
+
+    public function editor(){
+    	$this->display();
+    }
 }

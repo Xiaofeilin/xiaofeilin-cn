@@ -1,0 +1,143 @@
+<include file="Index/_meta" />
+	<title>文章列表</title>
+	<style>
+		.form-div{
+			text-align: center;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 微信管理 <span class="c-gray en">&gt;</span> 文章列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="page-container">
+		<div class="text-c">
+			<form action="{:U('WechatPush/index')}" method="post">
+			 	<span class="select-box inline">
+					<select name="keytype" class="select">
+						<option value="">全部分类</option>
+						<option value="title">标题</option>
+						<option value="description">概述</option>
+						<option value="connect">内容</option>
+					</select>
+				</span> 日期范围：
+				<literal>
+					<input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })" id="logmin" class="input-text Wdate" style="width:120px;" name="mindate">
+					-
+					<input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })" id="logmax" class="input-text Wdate" style="width:120px;" name="maxdate">
+				</literal>
+				<input type="text" name="search" id="" placeholder=" 搜索内容" style="width:250px" class="input-text">
+				<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+			</form>
+		</div>
+		<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="admin_add('添加文章','{:U('WechatEditor/index')}','800','500')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加文章</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+		<table class="table table-border table-bordered table-bg table-hover">
+			<thead>
+				<tr>
+					<th scope="col" colspan="8">关键字回复列表</th>
+				</tr>
+				<tr class="text-c">
+					<th width="25"><input type="checkbox" name="" value=""></th>
+					<th>ID</th>
+			        <th>标题</th>
+			        <th>概述</th>
+			        <th>封面</th>
+			        <th>内容</th>
+			        <th>添加时间</th>
+			        <th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="msgList" item="val">
+				<tr class="text-c">
+					<td style="text-align:center;"><input type="checkbox" value="{$val[id]}" name="ids"></td>
+			        <td style="text-align:center;">{$val.id}</td>
+			        <td style="text-align:center;">{$val.title}</td>
+			        <td style="text-align:center;">{$val.description}</td>
+			        <td style="text-align:center;"><img src="__PUBLIC__/Uploads/{$val.img}"></td>
+			        <td style="text-align:center;"><a title="点击查看" href="javascript:;" onclick="checke('{$val.title}','{:U('WechatPush/look')}','{$val.id}')" style="text-decoration:none">点击查看</a></td>
+			        <td style="text-align:center;">{$val.addtime}</td>
+					<td style="text-align:center;" class="td-manage">
+					<a title="编辑" href="javascript:;" onclick="admin_edit('编辑关键字消息','{:U('WechatEditor/edit')}','{$val.id}','800','500')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
+					<a title="删除" href="javascript:;" onclick="admin_del(this,'{$val.id}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
+					</td>
+				</tr>
+				</foreach>
+				<tr class="text-c">
+					<td class="pages" colspan="8">
+						{$page}
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<include file="Index/_footer" />
+<load href="__PUBLIC__/Admin/lib/My97DatePicker/4.8/WdatePicker.js" />
+<load href="__PUBLIC__/Admin/lib/datatables/1.10.0/jquery.dataTables.min.js" />
+<load href="__PUBLIC__/Admin/lib/laypage/1.2/laypage.js" />
+<script type="text/javascript">
+/*
+	参数解释：
+	title	标题
+	url		请求的url
+	id		需要操作的数据id
+	w		弹出层宽度（缺省调默认值）
+	h		弹出层高度（缺省调默认值）
+*/
+/*查看*/
+function checke(title,url,id,w,h){
+	var u = url + '?id=' + id;
+	layer_show(title,u,w,h);
+}
+/*增加*/
+function admin_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*删除*/
+function admin_del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type: 'POST',
+			url: "{:U('WechatPush/del')}"+"?id="+id,
+			dataType: 'json',
+			success: function(data){
+				layer.msg('已删除!',{icon:1,time:1000});
+				setTimeout("location.replace(location.href)",1000);
+			},
+			error:function(data) {
+				console.log(data.msg);
+			},
+		});		
+	});
+}
+
+/*编辑*/
+function admin_edit(title,url,id,w,h){
+	var u = url + '?id=' + id;
+	layer_show(title,u,w,h);
+}
+
+/*批量删除*/ 
+function datadel(){
+	var addid = new Array();
+	var i = 0;
+	$(':checked[name=ids]').each(function(){
+		addid[i] = $(this).val();
+		i++;
+	});
+	$.ajax({
+			type: 'POST',
+			url: "{:U('WechatPush/datadel')}",
+			dataType: 'json',
+			data:"id=" + addid,
+			success: function(data){
+				layer.msg('已删除!',{icon:1,time:1000});
+				setTimeout("location.replace(location.href)",1000);
+			},
+			error:function(data) {
+				console.log(data.msg);
+			},
+		});
+}
+</script>
+</html>

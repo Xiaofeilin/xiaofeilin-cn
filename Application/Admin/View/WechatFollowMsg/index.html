@@ -1,0 +1,30 @@
+<include file="Index/_meta" />
+	<title>被添加回复消息</title>
+</head>
+<body>
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 微信管理 <span class="c-gray en">&gt;</span> 被添加回复消息 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="page-container">
+
+	<article class="page-container">
+		<form action="{:U('WechatFollowMsg/update')}" method="post" class="form form-horizontal">
+			<input type="hidden" value="1" name="id">
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>被添加回复消息：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" value="" placeholder="" id="msg" name="msg">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>当前被添加回复消息：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<div class="bk-gray radius f-26">{$data}</div>
+				</div>
+			</div>
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;修改提交&nbsp;&nbsp;">
+				</div>
+			</div>
+		</form>
+	</article>
+</html>

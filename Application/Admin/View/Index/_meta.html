@@ -12,12 +12,50 @@
 <script type="text/javascript" src="lib/html5shiv.js"></script>
 <script type="text/javascript" src="lib/respond.min.js"></script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<load href="__PUBLIC__/Admin/static/h-ui/css/H-ui.min.css" />
+<load href="__PUBLIC__/Admin/static/h-ui.admin/css/H-ui.admin.css" />
+<load href="__PUBLIC__/Admin/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<load href="__PUBLIC__/Admin/static/h-ui.admin/css/style.css" />
 <!--[if IE 6]>
 <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
+<style>  
+    .pages a,  
+    .pages span {  
+        display: inline-block;  
+        padding: 2px 5px;  
+        margin: 0 1px;  
+        border: 1px solid #f0f0f0;  
+        -webkit-border-radius: 3px;  
+        -moz-border-radius: 3px;  
+        border-radius: 3px;  
+    }  
+      
+    .pages a,  
+    .pages li {  
+        display: inline-block;  
+        list-style: none;  
+        text-decoration: none;  
+        color: #58A0D3;  
+    }  
+      
+    .pages a.first,  
+    .pages a.prev,  
+    .pages a.next,  
+    .pages a.end {  
+        margin: 0;  
+    }  
+      
+    .pages a:hover {  
+        border-color: #50A8E6;  
+    }  
+      
+    .pages span.current {  
+        background: #50A8E6;  
+        color: #FFF;  
+        font-weight: 700;  
+        border-color: #50A8E6;  
+    }  
+</style>
