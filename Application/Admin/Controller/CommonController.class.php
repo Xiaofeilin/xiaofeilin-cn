@@ -77,4 +77,14 @@ class CommonController extends Controller{
 		$this->assign('count',$count);
 		$this->assign('page',$show);// 赋值分页输出
 	}
+
+	// 判断是否登录
+		public function _initialize()
+	   { 
+	   		//做权限的认证
+	   		//判断用户是否已经登录
+	   		if(!session('?admininfo')) { 
+	   			$this->redirect('Login/login');
+	   		}
+	   }
 }
